@@ -54,9 +54,9 @@ public class DB {
 
 	public static void closeStatement(PreparedStatement st) {
 		
-		if (conn !=null) {
+		if (st !=null) {
 			try {
-				conn.close();
+				st.close();
 			}
 			catch (SQLException e) {
 				throw new DbException(e.getMessage());
@@ -66,9 +66,9 @@ public class DB {
 	}
 
 	public static void closeResultSet(ResultSet rs) {
-		if (conn !=null) {
+		if (rs !=null) {
 			try {
-				conn.close();
+				rs.close();
 			}
 			catch (SQLException e) {
 				throw new DbException(e.getMessage());
