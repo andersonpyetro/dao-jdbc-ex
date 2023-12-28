@@ -1,5 +1,4 @@
-
-Project Title: Java JDBC CRUD Application with MySQL
+Java JDBC CRUD Application with MySQL
 
 Project Overview:
 This project is a Java application that demonstrates the implementation of a simple CRUD (Create, Read, Update, Delete) functionality using JDBC (Java Database Connectivity) to interact with a MySQL database. The application focuses on managing information about sellers and departments in a relational database.
